@@ -130,7 +130,7 @@ const createList = (availableItems) => {
   let x = [];
   availableItems.forEach((element) =>{
     if (element.available === true){
-      x.push(element);
+      x.push(element.name);
     }
   });
 return x
@@ -152,6 +152,7 @@ Return the resulting output array.
 
 const fizzbuzz = (arr) => {
   // Solution code here...
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
